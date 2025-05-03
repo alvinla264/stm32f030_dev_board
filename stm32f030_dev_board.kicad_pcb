@@ -247,7 +247,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "078eb84f-f55c-43b8-b358-c1aa856b7f43")
-		(at 147.26 73.803 90)
+		(at 143.02 73.803 90)
 		(descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x04 2.54mm single row")
 		(property "Reference" "J6"
@@ -265,6 +265,7 @@
 		(property "Value" "Conn_01x04"
 			(at 0 10.39 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a40302e0-fa4c-409b-ac61-29f8cf38d4d4")
 			(effects
 				(font
@@ -727,7 +728,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1452e415-6954-47fb-9716-45e67b305e3c")
-		(at 147.26 121.197 90)
+		(at 143.02 121.197 90)
 		(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J5"
@@ -6103,6 +6104,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ed84de35-041d-495b-b8af-dbe7936f96d0")
 			(effects
 				(font
@@ -6610,6 +6612,7 @@
 			(at 0 5 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "528b3bc5-b35e-4908-a0e6-06b5489e9203")
 			(effects
 				(font
@@ -6963,7 +6966,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "644f0030-9dac-466e-8887-a69091d344fd")
-		(at 100.555 73.803 90)
+		(at 98.45 73.803 90)
 		(descr "Through hole straight socket strip, 1x16, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x16 2.54mm single row")
 		(property "Reference" "J3"
@@ -6981,6 +6984,7 @@
 		(property "Value" "Conn_01x16"
 			(at 0 40.87 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f9265059-1c7a-4013-a2f3-5ab1d8e3c81a")
 			(effects
 				(font
@@ -11210,7 +11214,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "959e80b8-5444-4b43-b118-d7bc8ab17f06")
-		(at 100.555 121.197 90)
+		(at 98.45 121.197 90)
 		(descr "Through hole straight socket strip, 1x16, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x16 2.54mm single row")
 		(property "Reference" "J2"
@@ -16127,6 +16131,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "aa50b242-c3e1-438b-afb8-b5088f3dc085")
 			(effects
 				(font
