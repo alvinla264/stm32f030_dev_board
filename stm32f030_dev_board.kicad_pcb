@@ -85,10 +85,10 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(usegerberextensions yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -114,12 +114,12 @@
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerber_files/")
 		)
 	)
 	(net 0 "")
@@ -6474,7 +6474,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "9e4651bd-bae9-4c00-a179-1de7cb5a07e2")
+			(uuid "d1df41bc-3240-4c6b-bf00-c868c0ea778f")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105 90)
@@ -6486,7 +6486,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "9e4651bd-bae9-4c00-a179-1de7cb5a07e2")
+			(uuid "6504e79c-5ba2-4fe0-96fe-df2c92472cb7")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075 90)
@@ -6498,7 +6498,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "9e4651bd-bae9-4c00-a179-1de7cb5a07e2")
+			(uuid "493c9f18-ee8c-4313-b221-29c9a61f3739")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.wrl"
@@ -16538,7 +16538,7 @@
 		)
 	)
 	(gr_text "PA1\n"
-		(at 100.43 117.08 270)
+		(at 100.47 116.97 270)
 		(layer "F.SilkS")
 		(uuid "21a2a7c3-2d3d-46bd-8aba-dc9737ade4c4")
 		(effects
@@ -16994,12 +16994,12 @@
 		)
 	)
 	(gr_text "3.3V"
-		(at 147.23 116.56 270)
+		(at 147.43 116.69 270)
 		(layer "F.SilkS")
 		(uuid "d20e6145-c4f3-4791-b770-0b11bc9f2f1f")
 		(effects
 			(font
-				(size 1 1)
+				(size 1 0.95)
 				(thickness 0.1)
 			)
 			(justify left bottom)
@@ -17066,7 +17066,7 @@
 		)
 	)
 	(gr_text "PA10(USART1_RX)\n"
-		(at 123.34 106.55 270)
+		(at 123.38 106.5 270)
 		(layer "F.SilkS")
 		(uuid "eaa12f14-6bef-46b4-8f12-9a018966fcea")
 		(effects
@@ -18040,15 +18040,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "d37889d2-7b45-4647-b648-451df79b8c35")
-	)
-	(via
-		(at 158.3 79.87)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "d38b64ef-b62c-4207-9a7c-b2455fa7e6a1")
 	)
 	(via
 		(at 135.79 108.45)
