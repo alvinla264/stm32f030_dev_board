@@ -13,7 +13,7 @@ This is a custom development board for the STM32F030RCT6 with USB-C and FT232H f
 ## 🖼️ PCB Layout
 
 ### 2D Layout:
-![PCB Layout](./images/stm32f030_dev_board_2d.png)
+![PCB Layout](./images/stm32f030_dev_board_pcb.png)
 
 ### 3D Preview:
 ![3D View](./images/stm32f030_dev_board_3d.png)
